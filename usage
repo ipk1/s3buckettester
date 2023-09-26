@@ -1,0 +1,14 @@
+python3 s3check.py bucket_list.txt
+
+
+results:
+
+writes buckets with juciy info to juciy_info.txt
+writes bucket paths that have public read wite access to vulnerable.txt
+
+example of juicy_info.txt
+
+s3bucket.com/path/file.js
+s3bucket.com/path/file.js
+s3bucket.com/path/file.js
+s3bucket.com/path1/path2/file.js
